@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9dc3ea0d-85c8-4e23-bfb9-0c96db87c716" name="변경" comment="변경">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +108,7 @@
       <workItem from="1664201614411" duration="515000" />
       <workItem from="1664202144011" duration="1513000" />
       <workItem from="1664288959468" duration="141000" />
-      <workItem from="1664289110077" duration="319000" />
+      <workItem from="1664289110077" duration="447000" />
     </task>
     <servers />
   </component>
