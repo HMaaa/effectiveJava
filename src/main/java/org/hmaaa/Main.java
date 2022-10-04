@@ -1,6 +1,7 @@
 package org.hmaaa;
 
 import org.hmaaa.chapter2.Calzone;
+import org.hmaaa.chapter2.IsRomanNumeral;
 import org.hmaaa.chapter2.NutritionFacts;
 import org.hmaaa.chapter2.NutritionFacts.Builder;
 import org.hmaaa.chapter2.NyPizza;
@@ -11,25 +12,14 @@ public class Main {
 
   public static void main(String[] args) {
 
-    NutritionFacts nutritionFacts = new NutritionFacts.Builder(240, 8)
-        .calories(100)
-        .sodium(35)
-        .carbohydrate(27)
-        .build();
+    long sum = 0L;
 
-    NyPizza pizza = new NyPizza.Builder(Size.SMALL)
-        .addTopping(Topping.SAUSAGE)
-        .addTopping(Topping.ONION)
-        .build();
+    for (long i=0; i<Integer.MAX_VALUE; i++) {
+      sum += i;
+    }
 
-    Calzone calzone = new Calzone.Builder()
-        .addTopping(Topping.SAUSAGE)
-        .addTopping(Topping.HAM)
-        .build();
+    System.out.println(sum);
 
-    System.out.println(nutritionFacts.getSodium());
-    System.out.println(pizza.getSize());
-    System.out.println(calzone.toString());
 
   }
 }
